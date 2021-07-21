@@ -14,6 +14,7 @@
 .nr PS 10 .\" sets point size (default 10)
 .nr GROWPS 3
 .nr PSINCR 1.5p
+.nr HORPHANS 6 .\" forces page break if we can't match heading and 6 lines
 .\"
 .\" description block
 .\"
