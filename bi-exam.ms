@@ -237,24 +237,95 @@ Geben Sie dazu den Median und den Modus an. (F)
 Oft wird der Mittelwert zur Auswertung genutzt. Welchen Nachteil hat der
 Mittelwert? (A)
 .NH
-Quantitative Informationen
+Quantitative Informationen 2
+.\" TODO: why are two spaces more here? starting from "postgres .SH"?
 .sp 0.5
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .IP \[bu] 2
-Was sind die Grundsa\*[:]tze der Darstellung nach Stephen Few? (F)
+Wie lauten die einzelnen Begriffe hinter FASMI? (A)
 .IP \[bu] 2
-Welcher der folgenden Begriffe ist eine Kategorie, welcher ist eine Menge? (A)
+Wie lautet die Bedeutung der Begriffe hinter FASMI? (A)
 .IP \[bu] 2
-Hier gab es drei Aussagen zu den Situationen und den Zielen verschiedener
-Unternehmen. Anhand dieser Aussagen musste man jeweils die Relation beschreiben,
-sowie auch den bevorzugten Diagrammtyp. (A)
-.IP \[bu] 2
-Gegeben ist die folgende Menge.
-.B "{ 29,12,12,10,9,3 }"
-.br
-Geben Sie dazu den Median und den Modus an. (F)
-.IP \[bu] 2
-Oft wird der Mittelwert zur Auswertung genutzt. Welchen Nachteil hat der
-Mittelwert? (A)
+Wie stehen FASMI und die 12 Evaluationsregeln in Relation? (A)
 .PE
+.\"
+.\" exercise block
+.\"
+.LP
+.NH
+Spreadsheets
+.sp 0.5
+.\" starts a list item that uses a bullet unit(unordered list) with an indent of
+.\" 2
+.IP \[bu] 2
+Hier war eine Tabelle gegeben. Man sollte einmal den Durchschnitt, ein Produkt
+und einmal die absolute Vera\*[:]nderung berechnen. Man musst ebenfalls von
+einem gegebenen String (01_Kuh) das "01_" wegschneiden. (F)
+.IP \[bu] 2
+Was ist ein Merkmal von relativen Adressen? (A)
+.IP \[bu] 2
+Rufen Sie das Tabellenblatt "Produktion" absolut in der Zelle C42 auf. (F)
+.PE
+.\"
+.\" exercise block
+.\"
+.LP
+.NH
+Pivottabelle
+.sp 0.5
+.\" starts a list item that uses a bullet unit(unordered list) with an indent of
+.\" 2
+.IP \[bu] 2
+Hier waren Beispieldaten gegeben und der Befehl zur Erstellung einer
+Pivottabelle gegeben. Daraus musste man dann die Pivottabelle bilden. (F)
+.IP \[bu] 2
+Was ist der Nachteil einer Pivottabelle? (A)
+.IP \[bu] 2
+Was gilt nicht fu\*[:]r eine Pivottabelle? (A)
+.PE
+.\"
+.\" exercise block
+.\"
+.LP
+.NH
+Data Marts
+.sp 0.5
+.\" starts a list item that uses a bullet unit(unordered list) with an indent of
+.\" 2
+.IP \[bu] 2
+Was ist ein Data Mart generell? (A)
+.IP \[bu] 2
+Welche Arten von Data Marts gibt es? (F)
+.IP \[bu] 2
+Was ist ein Data Lake? (A)
+.IP \[bu] 2
+Wer nutzt Data Lakes? (A)
+.IP \[bu] 2
+Welchen Vorteil haben Data Lakes? (A)
+.IP \[bu] 2
+Welchen Nachteil haben Data Lakes? (A)
+.PE
+.\"
+.\" exercise block
+.\"
+.LP
+.NH
+Erweiterte Gruppierung
+.sp 0.5
+.\" starts a list item that uses a bullet unit(unordered list) with an indent of
+.\" 2
+.IP \[bu] 2
+.\" TODO create table
+Hier ist eine Tabelle gegeben.  Aufgabe dazu: Geben Sie anhand der Tabelle ein
+SQL Statement an, welches alle mo\*[:]glichen Kombinationen von Teil- und
+Gesamtsummen berechnet.
+.IP \[bu] 2
+Vervollsta\*[:]ndigen Sie das passende SQL Statement. (F)
+.IP \[bu] 2
+Tragen Sie das Ergebnis des SQL Statements in die Tabelle ein. (F)
+.IP \[bu] 2
+Welchen Befehl mu\*[:]ssen Sie nutzen, wenn Sie nur die Zwischen- und
+Gesamtsummen der ersten Kategorie berechnen wollen? (F)
+.PE
+
