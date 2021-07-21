@@ -1,0 +1,3 @@
+# ignore every .pdf besides the resulting linux-exam-protocol.pdf
+*.pdf
+!linux-exam-protocol.pdf
