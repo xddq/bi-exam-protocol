@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Author: Pierre Dahmani
-# Created: 12.07.2021
+# Created: 21.07.2021
 #
 # Description: compiles given .ms file to pdf.
 #
