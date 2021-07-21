@@ -29,121 +29,232 @@ available under the github repo:
 https://github.com/Pierrefha/bi-exam-protocol
 .br
 created by Pierre Dahmani, Jonas Schell, Daniel Johann Sept
+.br
+.sp 1
+Die Pru\*[:]fung findet online am Rechner statt. Es gibt jeweils mehrere
+Antwortmo\*[:]glichkeiten. Generell muss man viele Lu\*[:]ckentextaufgaben
+bearbeiten. Dabei kann man entweder aus vorgefertigten Antworten auswa\*[:]hlen
+(gekennzeichnet mit A), oder man schreibt es in ein Freitextfeld (gekennzeichnet
+mit F).
+
 .DE
 .\"
 .\" exercise block
 .\"
 .NH
-Free Software
+Business Intelligence
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .LP
 .IP \[bu] 2
-What are the software freedoms?
+Wie lautet die Definition von BI nach "Dedic N. & Stanier C.; 2016"? (F)
 .IP \[bu]
-Does Open Software cost something? If not, name how one could make money with
-an Open Software project.
+Was bedeutet die Abku\*[:]rzung KPI? (A)
 .IP \[bu]
-What is a copyleft license? Explain the concept.
+Wofu\*[:]r wird Business Intelligence genutzt? (A)
+.IP \[bu]
+Welchem Bezug unterliegen Unternehmensziele. (F)
+.IP \[bu]
+Hier wurden drei Beispiele fu\*[:]r verschiedene Ziele gegeben, diese musste man
+dem korrekten Ziel zuordnen. (A)
+.IP \[bu]
+Zwei Arten von Zielen stehen miteinander in Verbindung, welche sind das? Wie
+stehen Sie in Verbindung? (A)
 .PE
 .\"
 .\" exercise block
 .\"
 .NH
-Shell
+DWH
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .LP
 .IP \[bu] 2
-What are the different types of shells in an unix system?
+Hier war die Definition eines DWHs nach Inmon gefragt. (A)
 .IP \[bu]
-Name the possibilites to put a process from from foreground to the background.
+Wie lautete die Semantik der vier Aspekte der Definition? (Hier war nur eines
+gefragt, wird wahrscheinlich variieren) (A)
 .IP \[bu]
-How can we kill a process that is running in the background? Give an example.
+Hier waren jeweils Beschreibungen von verschiedenen Situationen gegeben. Jeder
+Situation musste man einer DWH Art zuordnen. (A)
 .IP \[bu]
-Explain the concept of pipelining. How does it work? Give a practical example.
-.IP \[bu]
-What is the difference between pipelining and redirection? Give an example how
-you would redirect the output of stderr to a file.
+Hier waren drei Aussagen zu verschiedenen Arten von Daten (abgeleitet oder
+operativ) gegeben. Man musste diese jeweils zuordnen. (A)
 .PE
 .\"
 .\" exercise block
 .\"
 .NH
-Make
+Star Schema
 .sp 0.5
 .\" additional/missing information
 .LP
-.\" left aligns makefile and scales it to be 3i width and height.
-.PSPIC -L "./makefile.eps" 3i 3i
 .sp 0.5
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .IP \[bu] 2
-Explain the functionality of the given makefile. What are the automatic
-variables? Explain automatic variables.
+Wie lauten die Kardinalita\*[:]ten beim Star-Schema? Erkla\*[:]ren Sie Ihre
+Auswahl. (A)
 .IP \[bu]
-Change the makefile so that the resulting binary will be built using multiple
-source files.
-.IP \[bu]
-How does make check if a file has to be recompiled or rebuild?
+Welche Dimension bestitzt jedes DWH? (A)
 .PE
 .\"
 .\" exercise block
 .\"
 .NH
-CMake
+Knime
 .sp 0.5
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .LP
 .IP \[bu] 2
-What is the difference between cmake and make?
+Was beschreibt in Knime einen ETL Prozess? (F)
 .IP \[bu]
-What is the purpose of CMakeLists.txt?
+Was trifft fu\*[:]r einen Knime Node zu? (A)
 .IP \[bu]
-How can we use cmake to create a hello_world executable from the source file
-hello_world.cpp? Give an example.
+Welche Nodes sind nicht Streambar? (A)
+.IP \[bu]
+Wie funktionieren streamable Nodes in Knime? (A)
+.IP \[bu]
+Hier war eine Tabelle gegeben. Daraus gab es drei Ergebnistabllen und man musste
+zu jeder Tabelle angeben, mit welchem Node dieses Ergebnis erstellt werden
+konnte. (A)
+.\"
+.\" given table
+.\"
+.TS
+expand tab(|);
+| l | l | l | l |
+| l | l | l | l | .
+_
+ID | Material | Preis | Gegenstand
+_
+1 | Holz | 15.30 | Tisch
+2 | Metall | 12.20 | Nagel
+3 | Metall | 9.00 | Scharnier
+4 | Unbekannt | 7.30 | Unbekannt
+5 | Holz | 12.27 | Tu\*[:]r
+_
+.TE
+.\"
+.\" given table
+.\"
+.IP a)
+.TS
+expand tab(|);
+| l | l |
+| l | l | .
+_
+Material | Preis
+_
+Holz | 15.30
+Metall | 12.20
+Unbekannt | 7.30
+_
+.TE
+.\"
+.\" given table
+.\"
+.IP b)
+.TS
+expand tab(|);
+| l | l |
+| l | l | .
+_
+ID | Gegenstand
+_
+1 | Tisch
+2 | Nagel
+3 | Scharnier
+4 | Unbekannt
+5 | Tu\*[:]r
+_
+.TE
+.\"
+.\" given table
+.\"
+.IP c)
+.TS
+expand tab(|);
+| l | l | l | l |
+| l | l | l | l | .
+_
+ID | Material | Preis | Gegenstand
+_
+1 | Holz | 15.30 | Tisch
+3 | Metall | 9.00 | Scharnier
+4 | Unbekannt | 7.30 | Unbekannt
+_
+.TE
+
 .PE
 .\"
 .\" exercise block
 .\"
 .LP
 .NH
-PID namespaces
+Postgres
 .sp 0.5
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .IP \[bu] 2
-What is a pid namespace? What does it mean?  How are pid namespaces created?
-(The exact command does not have to be given, if not remembered) Whats the
-situation for the system like, after the first process in the namespace was
-created?
+Wie lautet die korrekte Reihenfolge der Architektur in Postgres? (A)
+.IP \[bu] 2
+Hier war eine Abfolge von SQL Befehlen gegeben. Diese beinhaltete verschiedene
+Rollen und Rechtezuweisungen. Anhand dieser Befehle sollte man eine
+Berechtigungstabelle ausfu\*[:]llen. (A und F)
+.IP \[bu] 2
+Wie lauten die ersten drei Befehle welche man beno\*[:]tigt um eine Materialized
+View zu erzeugen? (F)
+.IP \[bu] 2
+Wie funktioniert eine Materialized View im Gegensatz zu einer View? (A)
+.IP \[bu] 2
+Was ist der Nachteil einer Materialized View? (A)
 .PE
 .\"
 .\" exercise block
 .\"
 .LP
 .NH
-COW copy on write
+Quantitative Informationen
 .sp 0.5
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .IP \[bu] 2
-Explain how the update process of a file is handled when using the copy on write
-mechanism. Drawings are allowed, but only to support your answer, they are not
-enough to answer the question.
-.PE
-.\"
-.\" exercise block
-.\"
-.LP
+Was sind die Grundsa\*[:]tze der Darstellung nach Stephen Few? (F)
+.IP \[bu] 2
+Welcher der folgenden Begriffe ist eine Kategorie, welcher ist eine Menge? (A)
+.IP \[bu] 2
+Hier gab es drei Aussagen zu den Situationen und den Zielen verschiedener
+Unternehmen. Anhand dieser Aussagen musste man jeweils die Relation beschreiben,
+sowie auch den bevorzugten Diagrammtyp. (A)
+.IP \[bu] 2
+Gegeben ist die folgende Menge.
+.B "{ 29,12,12,10,9,3 }"
+.br
+Geben Sie dazu den Median und den Modus an. (F)
+.IP \[bu] 2
+Oft wird der Mittelwert zur Auswertung genutzt. Welchen Nachteil hat der
+Mittelwert? (A)
 .NH
-init system
+Quantitative Informationen
+.sp 0.5
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .IP \[bu] 2
-What is/was suspected of a traditional init system? What is nowadays expected of
-a modern init system? Name three specific examples use cases for a modern init
-system.
+Was sind die Grundsa\*[:]tze der Darstellung nach Stephen Few? (F)
+.IP \[bu] 2
+Welcher der folgenden Begriffe ist eine Kategorie, welcher ist eine Menge? (A)
+.IP \[bu] 2
+Hier gab es drei Aussagen zu den Situationen und den Zielen verschiedener
+Unternehmen. Anhand dieser Aussagen musste man jeweils die Relation beschreiben,
+sowie auch den bevorzugten Diagrammtyp. (A)
+.IP \[bu] 2
+Gegeben ist die folgende Menge.
+.B "{ 29,12,12,10,9,3 }"
+.br
+Geben Sie dazu den Median und den Modus an. (F)
+.IP \[bu] 2
+Oft wird der Mittelwert zur Auswertung genutzt. Welchen Nachteil hat der
+Mittelwert? (A)
 .PE
