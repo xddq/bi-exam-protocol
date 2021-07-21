@@ -116,9 +116,8 @@ Welche Nodes sind nicht Streambar? (A)
 .IP \[bu]
 Wie funktionieren streamable Nodes in Knime? (A)
 .IP \[bu]
-Hier war eine Tabelle gegeben. Daraus gab es drei Ergebnistabllen und man musste
-zu jeder Tabelle angeben, mit welchem Node dieses Ergebnis erstellt werden
-konnte. (A)
+Folgende Tabelle ist gegeben. Geben Sie zu den folgenden Beispielen jeweils den
+einzelnen Node an, mit welchem man dieses Ergebnis erzielen kann. (A)
 .\"
 .\" given table
 .\"
