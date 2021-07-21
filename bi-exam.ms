@@ -289,6 +289,28 @@ Was gilt nicht fu\*[:]r eine Pivottabelle? (A)
 .\"
 .LP
 .NH
+BEP Analyse
+.sp 0.5
+.\" starts a list item that uses a bullet unit(unordered list) with an indent of
+.\" 2
+.IP \[bu] 2
+Die PaintBall-B Inc. entwickelt eine neue Farbkugel. Die Produktion einer
+Farbkugel kostet insgesamt 0,05€ (Material und Zeitaufwand Personal). Der
+Vertrieb schätzt ein, eine Packung Farbkugeln (jeweils 100 Kugeln pro Packung)
+für 11€ verkaufen zu können. Für die Herstellung muss eine neue Maschine im Wert
+von 16000€ und eine zur Verpackung im Wert von 8000€ angeschafft werden.
+.br
+.sp 0.4
+Ab welcher Absatzmenge (Anzahl Packungen) ist die Gewinnschwelle erreicht?
+.IP \[bu]
+Die PaintBall-B Inc. kann 400 Packungen pro Quartal produzieren. Wie viele
+Monate dauert es, bis die Gewinnschwelle erreicht wurde?
+.PE
+.\"
+.\" exercise block
+.\"
+.LP
+.NH
 Data Marts
 .sp 0.5
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
