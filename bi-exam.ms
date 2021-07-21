@@ -56,6 +56,7 @@ Wofu\*[:]r wird Business Intelligence genutzt? (A)
 .IP \[bu]
 Welchem Bezug unterliegen Unternehmensziele. (F)
 .IP \[bu]
+.\" TODO: create examples
 Hier wurden drei Beispiele fu\*[:]r verschiedene Ziele gegeben, diese musste man
 dem korrekten Ziel zuordnen. (A)
 .IP \[bu]
@@ -71,14 +72,16 @@ DWH
 .\" 2
 .LP
 .IP \[bu] 2
-Hier war die Definition eines DWHs nach Inmon gefragt. (A)
+Wie lautet die Definition fu\*[:]r ein DWH nach Inmon? (A)
 .IP \[bu]
 Wie lautete die Semantik der vier Aspekte der Definition? (Hier war nur eines
 gefragt, wird wahrscheinlich variieren) (A)
 .IP \[bu]
+.\" TODO:create examples
 Hier waren jeweils Beschreibungen von verschiedenen Situationen gegeben. Jeder
 Situation musste man einer DWH Art zuordnen. (A)
 .IP \[bu]
+.\" TODO:create examples
 Hier waren drei Aussagen zu verschiedenen Arten von Daten (abgeleitet oder
 operativ) gegeben. Man musste diese jeweils zuordnen. (A)
 .PE
@@ -87,8 +90,6 @@ operativ) gegeben. Man musste diese jeweils zuordnen. (A)
 .\"
 .NH
 Star Schema
-.sp 0.5
-.\" additional/missing information
 .LP
 .sp 0.5
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
@@ -199,16 +200,16 @@ Postgres
 .\" 2
 .IP \[bu] 2
 Wie lautet die korrekte Reihenfolge der Architektur in Postgres? (A)
-.IP \[bu] 2
+.IP \[bu]
 Hier war eine Abfolge von SQL Befehlen gegeben. Diese beinhaltete verschiedene
 Rollen und Rechtezuweisungen. Anhand dieser Befehle sollte man eine
 Berechtigungstabelle ausfu\*[:]llen. (A und F)
-.IP \[bu] 2
+.IP \[bu]
 Wie lauten die ersten drei Befehle welche man beno\*[:]tigt um eine Materialized
 View zu erzeugen? (F)
-.IP \[bu] 2
+.IP \[bu]
 Wie funktioniert eine Materialized View im Gegensatz zu einer View? (A)
-.IP \[bu] 2
+.IP \[bu]
 Was ist der Nachteil einer Materialized View? (A)
 .PE
 .\"
@@ -222,31 +223,30 @@ Quantitative Informationen
 .\" 2
 .IP \[bu] 2
 Was sind die Grundsa\*[:]tze der Darstellung nach Stephen Few? (F)
-.IP \[bu] 2
+.IP \[bu]
 Welcher der folgenden Begriffe ist eine Kategorie, welcher ist eine Menge? (A)
-.IP \[bu] 2
+.IP \[bu]
 Hier gab es drei Aussagen zu den Situationen und den Zielen verschiedener
 Unternehmen. Anhand dieser Aussagen musste man jeweils die Relation beschreiben,
 sowie auch den bevorzugten Diagrammtyp. (A)
-.IP \[bu] 2
+.IP \[bu]
 Gegeben ist die folgende Menge.
 .B "{ 29,12,12,10,9,3 }"
 .br
 Geben Sie dazu den Median und den Modus an. (F)
-.IP \[bu] 2
+.IP \[bu]
 Oft wird der Mittelwert zur Auswertung genutzt. Welchen Nachteil hat der
 Mittelwert? (A)
 .NH
 Quantitative Informationen 2
-.\" TODO: why are two spaces more here? starting from "postgres .SH"?
 .sp 0.5
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .IP \[bu] 2
 Wie lauten die einzelnen Begriffe hinter FASMI? (A)
-.IP \[bu] 2
+.IP \[bu]
 Wie lautet die Bedeutung der Begriffe hinter FASMI? (A)
-.IP \[bu] 2
+.IP \[bu]
 Wie stehen FASMI und die 12 Evaluationsregeln in Relation? (A)
 .PE
 .\"
@@ -262,9 +262,9 @@ Spreadsheets
 Hier war eine Tabelle gegeben. Man sollte einmal den Durchschnitt, ein Produkt
 und einmal die absolute Vera\*[:]nderung berechnen. Man musst ebenfalls von
 einem gegebenen String (01_Kuh) das "01_" wegschneiden. (F)
-.IP \[bu] 2
+.IP \[bu]
 Was ist ein Merkmal von relativen Adressen? (A)
-.IP \[bu] 2
+.IP \[bu]
 Rufen Sie das Tabellenblatt "Produktion" absolut in der Zelle C42 auf. (F)
 .PE
 .\"
@@ -279,9 +279,9 @@ Pivottabelle
 .IP \[bu] 2
 Hier waren Beispieldaten gegeben und der Befehl zur Erstellung einer
 Pivottabelle gegeben. Daraus musste man dann die Pivottabelle bilden. (F)
-.IP \[bu] 2
+.IP \[bu]
 Was ist der Nachteil einer Pivottabelle? (A)
-.IP \[bu] 2
+.IP \[bu]
 Was gilt nicht fu\*[:]r eine Pivottabelle? (A)
 .PE
 .\"
@@ -295,15 +295,15 @@ Data Marts
 .\" 2
 .IP \[bu] 2
 Was ist ein Data Mart generell? (A)
-.IP \[bu] 2
+.IP \[bu]
 Welche Arten von Data Marts gibt es? (F)
-.IP \[bu] 2
+.IP \[bu]
 Was ist ein Data Lake? (A)
-.IP \[bu] 2
+.IP \[bu]
 Wer nutzt Data Lakes? (A)
-.IP \[bu] 2
+.IP \[bu]
 Welchen Vorteil haben Data Lakes? (A)
-.IP \[bu] 2
+.IP \[bu]
 Welchen Nachteil haben Data Lakes? (A)
 .PE
 .\"
@@ -316,15 +316,32 @@ Erweiterte Gruppierung
 .\" starts a list item that uses a bullet unit(unordered list) with an indent of
 .\" 2
 .IP \[bu] 2
-.\" TODO create table
-Hier ist eine Tabelle gegeben.  Aufgabe dazu: Geben Sie anhand der Tabelle ein
-SQL Statement an, welches alle mo\*[:]glichen Kombinationen von Teil- und
-Gesamtsummen berechnet.
-.IP \[bu] 2
-Vervollsta\*[:]ndigen Sie das passende SQL Statement. (F)
-.IP \[bu] 2
-Tragen Sie das Ergebnis des SQL Statements in die Tabelle ein. (F)
-.IP \[bu] 2
+Geben Sie anhand der Tabelle ein SQL Statement an, welches alle mo\*[:]glichen
+Kombinationen von Teil- und Gesamtsummen berechnet. Sortieren Sie nach Region,
+Quartal Aufsteigend. (F)
+.\"
+.\" given table
+.\"
+.TS
+expand tab(|);
+| l | l | l |
+| l | l | l | .
+_
+Region | Quartal | Verka\*[:]ufe |
+_
+NORD | Q1 | 15
+NORD | Q1 | 12
+OST | Q2 | 33
+OST | Q3 | 24
+NORD | Q1 | 40
+SU\*[:]D | Q4 | 28
+WEST | Q2 | 10
+_
+.TE
+.IP \[bu]
+Tragen Sie das Ergebnis des SQL Statements aus der vorherigen Aufgabe in die
+folgende Tabelle ein. (F)
+.IP \[bu]
 Welchen Befehl mu\*[:]ssen Sie nutzen, wenn Sie nur die Zwischen- und
 Gesamtsummen der ersten Kategorie berechnen wollen? (F)
 .PE
